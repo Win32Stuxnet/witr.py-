@@ -1,4 +1,4 @@
-```markdown
+
 # contrib/tui-python
 
 A small, experimental Textual TUI that shells out to the upstream `witr` binary and displays listeners, process details, and parent chains. This is intentionally non-invasive: the Go binary remains the source of truth and the TUI consumes machine-readable output (JSON).
@@ -80,4 +80,4 @@ If your `witr` JSON differs, adapt the small parser in `main.py` or adjust the s
 ## Attribution
 This project is a companion experiment derived from the upstream `witr` project. See the upstream repository for original source and license information.
 
-```
+
